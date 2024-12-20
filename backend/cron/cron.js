@@ -1,7 +1,7 @@
 import cron from "cron";
 import https from "https";
 
-const URL = "https://example.com";
+const URL = "https://cognite-chat-app.onrender.com";
 
 const job = new cron.CronJob("*/14 * * * *", function () {
 	https
